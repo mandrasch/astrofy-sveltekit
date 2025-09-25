@@ -8,8 +8,6 @@ Fully static project via [adapter-static (SSG)](https://svelte.dev/docs/kit/adap
 
 [Live preview](https://astrofy-sveltekit.pages.dev/)
 
-🚧 Work in progress - not ready for production yet! 🚧
-
 ## TODOs
 
 - [ ] update README
