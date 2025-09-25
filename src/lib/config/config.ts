@@ -38,8 +38,9 @@ export const CONTACT_MAIL = PERSON.email; // empty string '' hides the Contact l
 const LINKS = {
 	support: 'https://manuelernestog.github.io/support-my-work/',
 	github: 'https://github.com/manuelernestog',
-	linkedin: 'https://www.linkedin.com/in/manuelernestogr',
-	rss: '/rss.xml'
+	linkedin: 'https://www.linkedin.com/in/manuelernestogr'
+	// TODO: re-add
+	// rss: '/rss.xml'
 } as const;
 
 export const SOCIALS = [
@@ -86,8 +87,8 @@ export const SOCIALS = [
         1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783
         -1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"/>
     </svg>`
-	},
-	{
+	}
+	/*{
 		id: 'rss',
 		href: LINKS.rss,
 		label: 'RSS Feed',
@@ -97,7 +98,7 @@ export const SOCIALS = [
       <path d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"/>
       <circle cx="6" cy="18" r="2"/>
     </svg>`
-	}
+	}*/
 ] as const;
 
 // ----------------- Footer -----------------
