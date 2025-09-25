@@ -32,13 +32,9 @@ Fully static project via [adapter-static (SSG)](https://svelte.dev/docs/kit/adap
 - [ ] add github action build option
 - [ ] Check all files (QA), remove comments - 🤖 assisted conversion
 
-<hr>
-
-# Forked documentation (needs updates)
-
 ## Demo
 
-View a live demo of [Astrofy](https://astrofy-template.netlify.app/)
+View a live demo of [astrofy-sveltekit](https://astrofy-sveltekit.pages.dev/)
 
 ## Installation
 
@@ -48,17 +44,27 @@ Run the following command in your terminal
 npm install
 ```
 
-Once the packages are installed you are ready to run astro. Astro comes with a built-in development server that has everything you need for project development. The astro dev command will start the local development server so that you can see your new website in action for the very first time.
+Once the packages are installed you are ready to run astro. SvelteKit comes with a built-in development server (Vite) that has everything you need for project development. The SvelteKit dev command will start the local development server so that you can see your new website in action for the very first time:
 
 ```bash
 npm run dev -- -- open
 ```
 
+To run a build of the static project, use:
+
+```bash
+npm run build
+npm run preview
+```
+
 ## Tech Stack
 
-- [Astro](https://astro.build)
+- [SvelteKit v2](https://svelte.dev/) with Svelte v5
 - [tailwindcss](https://tailwindcss.com/)
-- [DaisyUI](https://daisyui.com/)
+
+<hr>
+
+# Forked documentation (needs updates)
 
 ## Project Structure
 
