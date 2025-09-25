@@ -12,7 +12,12 @@ const config = {
 			extensions: ['.md', '.svx']
 		})
 	],
-	kit: { adapter: adapter() },
+	kit: {
+		adapter: adapter(),
+		prerender: {
+			handleHttpError: 'warn'
+		}
+	},
 	extensions: ['.svelte', '.md', '.svx']
 };
 
