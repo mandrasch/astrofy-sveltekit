@@ -4,6 +4,8 @@
 
 A simple portfolio theme with fixed sidebar navigation. Built with SvelteKit v2, Svelte v5 & Tailwind. Fork of the awesome [Astrofy template](https://github.com/manuelernestog/astrofy) by Manuel Ernesto Garcia. 👏
 
+Fully static project via [adapter-static (SSG)](https://svelte.dev/docs/kit/adapter-static).
+
 🚧 Work in progress - not ready for production yet! 🚧
 
 ## TODOs
