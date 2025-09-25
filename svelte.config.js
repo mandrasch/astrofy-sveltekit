@@ -15,7 +15,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			handleHttpError: 'warn'
+			handleHttpError: 'warn',
+			handleUnseenRoutes: 'warn'
 		}
 	},
 	extensions: ['.svelte', '.md', '.svx']
