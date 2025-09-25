@@ -32,6 +32,10 @@ Fully static project via [adapter-static (SSG)](https://svelte.dev/docs/kit/adap
 - [ ] add github action build option
 - [ ] Check all files (QA), remove comments - 🤖 assisted conversion
 
+<hr>
+
+# Forked documentation (needs updates)
+
 ## Demo
 
 View a live demo of [Astrofy](https://astrofy-template.netlify.app/)
