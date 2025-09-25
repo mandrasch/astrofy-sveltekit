@@ -5,7 +5,7 @@ export type Project = {
 	url: string;
 	badge?: 'NEW' | 'FOSS' | (string & {});
 	tags?: readonly string[];
-	featured?: boolean; // ✅ NEW
+	featured?: boolean;
 };
 
 export type ProjectGroup = {
@@ -21,21 +21,21 @@ export const PROJECT_GROUPS = [
 				title: 'Demo Project 1',
 				img: '/post_img.png',
 				desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-				url: '#',
+				url: 'https://example.org',
 				badge: 'NEW',
-				featured: true // ✅ mark as featured
+				featured: true
 			},
 			{
 				title: 'Demo Project 2',
 				img: '/post_img.png',
 				desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-				url: '#'
+				url: 'https://example.org'
 			},
 			{
 				title: 'Demo Project 3',
 				img: '/post_img.png',
 				desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-				url: '#'
+				url: 'https://example.org'
 			}
 		] as const
 	},
@@ -46,17 +46,17 @@ export const PROJECT_GROUPS = [
 				title: 'Demo Project 4',
 				img: '/post_img.png',
 				desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-				url: '#',
+				url: 'https://example.org',
 				badge: 'FOSS',
-				featured: true // ✅ mark as featured
+				featured: true
 			},
 			{
 				title: 'Demo Project 5',
 				img: '/post_img.png',
 				desc: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
-				url: '#',
+				url: 'https://example.org',
 				badge: 'FOSS',
-				featured: true // ✅ mark as featured
+				featured: true
 			}
 		] as const
 	}
